@@ -86,14 +86,14 @@ export default function Index() {
               className="text-xl font-light tracking-[0.06em]"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
-              Departamento 9A
+              Apartment 9A
             </p>
             <Link
               to="/access"
               className="block text-base font-normal italic tracking-[0.06em] underline decoration-from-font"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
-              <p>¿cómo entrar?</p>
+              <p>how to get in?</p>
             </Link>
           </div>
         </div>
