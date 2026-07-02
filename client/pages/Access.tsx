@@ -40,7 +40,7 @@ export default function Access() {
             }`}
             style={{ fontFamily: 'Merriweather, serif' }}
           >
-            building
+            edificio
           </button>
           <button
             onClick={() => setActiveTab("apartment")}
@@ -51,7 +51,7 @@ export default function Access() {
             }`}
             style={{ fontFamily: 'Merriweather, serif' }}
           >
-            apartment
+            departamento
           </button>
         </div>
 
@@ -89,14 +89,14 @@ function MainGateContent({ onVehicleAccessClick }: { onVehicleAccessClick: () =>
           className="text-lg font-normal tracking-[-0.02em] text-left"
           style={{ fontFamily: 'Merriweather, serif', color: '#212530' }}
         >
-          How to access the building?
+          ¿Cómo acceder al edificio?
         </h2>
         <button
           onClick={onVehicleAccessClick}
           className="block text-base font-normal italic tracking-[0.06em] underline decoration-from-font cursor-pointer hover:opacity-70 transition-opacity"
           style={{ fontFamily: 'Merriweather, serif', color: '#212530', background: 'none', border: 'none', padding: 0, margin: 0 }}
         >
-          vehicle access
+          acceso vehicular
         </button>
         <p
           className="text-xl font-light tracking-[-0.02em] text-left"
@@ -104,7 +104,7 @@ function MainGateContent({ onVehicleAccessClick }: { onVehicleAccessClick: () =>
         >
           <span>
             <span>
-              <span>Code</span>
+              <span>Código</span>
               <span>
                 <strong>: </strong>
                 <span>
@@ -138,13 +138,13 @@ function MainGateContent({ onVehicleAccessClick }: { onVehicleAccessClick: () =>
           style={{ fontFamily: 'Open Sans, sans-serif', color: '#212530' }}
         >
           <p>
-            Find the access panel and enter the code. The door should open automatically with code 1126.
+            Encuentra el control de acceso e introduce el código. La puerta debería abrirse automáticamente con el código 1126.
           </p>
           <p>
-            In the unusual case that the electronic access is not working, there is a manual key box with a key inside. The box code is 4233.
+            En caso inusual que el acceso electrónico no esté funcionando, hay una caja con clave manual que tiene una llave guardada. La clave de la caja es 4233.
           </p>
           <p>
-            If you need to use the key, please leave it back in the box and close it.
+            Si es necesario usar la llave, favor de dejarla nuevamente en la caja y cerrarla.
           </p>
         </div>
       </div>
@@ -160,15 +160,15 @@ function ApartmentContent() {
           className="text-lg font-normal tracking-[-0.02em] text-left"
           style={{ fontFamily: 'Merriweather, serif', color: '#212530' }}
         >
-          How to access apartment 9A?
+          ¿Cómo acceder al departamento 9A?
         </h2>
         <p
           className="text-xl font-light tracking-[-0.02em] text-left"
           style={{ fontFamily: 'Open Sans, sans-serif', color: '#212530' }}
         >
-          Code:{" "}
+          Código:{" "}
           <strong>
-            <u>4596</u>
+            <u>0587</u>
           </strong>
         </p>
       </div>
@@ -193,16 +193,16 @@ function ApartmentContent() {
           style={{ fontFamily: 'Open Sans, sans-serif', color: '#212530' }}
         >
           <p>
-            Find apartment 9A on the 3rd floor. Once you go up the stairs, it's the apartments on the left (the row closest to the street).
+            Encuentra el departamento 9A en el 3er piso piso. Una vez que subas las escaleras son los departamentos de la izquierda (fila más cercana a la calle)
           </p>
           <p>
-            It's the 3rd apartment, the one with a Yale / Nest lock for access control.
+            Es el 3er departamento que tiene una cerradura Yale / Nest para el control de acceso.
           </p>
           <p>
-            Tap the Yale logo to activate the keypad, enter the code and press the checkmark in the bottom right corner to open the door ✔️
+            Da un toque en el logo de Yale para activar el teclado, ingresa el código y presiona la "palomita" en la esquina inferior derecha para abrir la puerta ✔️
           </p>
           <p>
-            The door will lock automatically after 10 seconds. You can close it manually if needed.
+            La puerta se cerrará automáticamente después de 10 segundos. Puedes cerrarla manualmente si fuese necesario.
           </p>
         </div>
       </div>
