@@ -42,7 +42,7 @@ export default function Index() {
               className="text-[32px] font-normal leading-normal"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
-              Hello Guillermo
+              Hello Javier
             </h1>
             <p
               className="text-2xl font-light tracking-[0.06em] leading-normal"
