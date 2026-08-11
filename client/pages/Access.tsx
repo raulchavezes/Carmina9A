@@ -96,7 +96,7 @@ function MainGateContent({ onVehicleAccessClick }: { onVehicleAccessClick: () =>
           className="block text-base font-normal italic tracking-[0.06em] underline decoration-from-font cursor-pointer hover:opacity-70 transition-opacity"
           style={{ fontFamily: 'Merriweather, serif', color: '#212530', background: 'none', border: 'none', padding: 0, margin: 0 }}
         >
-          acceso vehicular
+          parking
         </button>
         <p
           className="text-xl font-light tracking-[-0.02em] text-left"

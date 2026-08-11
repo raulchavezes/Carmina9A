@@ -24,7 +24,7 @@ export default function VehicleAccessModal({ isOpen, onClose }: VehicleAccessMod
             className="text-[28px] font-bold leading-tight tracking-[-0.02em]"
             style={{ fontFamily: 'Merriweather, serif', color: '#212530' }}
           >
-            Parking en el edificio
+            Acceso en carro
           </h2>
           <button
             onClick={onClose}
@@ -42,7 +42,13 @@ export default function VehicleAccessModal({ isOpen, onClose }: VehicleAccessMod
             <div className="space-y-3 text-xs tracking-[-0.02em] text-left"
               style={{ fontFamily: 'Open Sans, sans-serif', color: '#212530' }}>
               <p>
-                El edificio cuenta con estacionamiento de visitas fuera del edificio. Tendrás que estacionar en el estacionamiento de visitas para acceder al departamento.
+                El edificio cuenta con estacionamiento de visitas fuera del edificio. Tendrás que estacionar primeramente en el estacionamiento de visitas para acceder al departamento.
+              </p>
+              <p>
+                Una vez en el departamento podrás encontrar el control de acceso vehicular, éste control abre el portón de acceso de los carros.
+              </p>
+              <p>
+                Una vez con el control puedes acceder al estacionamiento - el lugar designado es el A9 - el primer espacio a la derecha una vez que entras al estacionamiento:
               </p>
             </div>
 
@@ -50,13 +56,21 @@ export default function VehicleAccessModal({ isOpen, onClose }: VehicleAccessMod
 
             <div className="rounded-lg overflow-hidden w-full">
               <img
-                src="/Carmina9A/building-street.jpg"
-                alt="Building entrance"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4e6b85d030c74f6387398b4b4e289006%2Fca862888e89c43caabe9d80f8aa4e519?format=webp&width=800&height=1200"
+                alt="Parking space A9"
                 className="w-full object-cover"
                 style={{ height: '300px' }}
               />
             </div>
 
+            <div className="border-t border-gray-200 my-4" />
+
+            <div className="space-y-3 text-xs tracking-[-0.02em] text-left"
+              style={{ fontFamily: 'Open Sans, sans-serif', color: '#212530' }}>
+              <p>
+                Cuando salgas por favor asegurarte de dejar el control de acceso en el departamento.
+              </p>
+            </div>
           </div>
         </div>
       </div>
