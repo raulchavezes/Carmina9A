@@ -37,18 +37,24 @@ export default function Index() {
       <div className="relative z-10 flex flex-col items-center px-7 py-12 min-h-screen">
         {/* Main Content */}
         <div className="flex flex-col justify-center items-center w-full max-w-md pt-32 pb-16">
-          <div className="space-y-2">
+          <div className="space-y-1">
             <h1
-              className="text-[32px] font-normal leading-normal"
+              className="text-[32px] font-normal leading-tight"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
               Hello Floren
             </h1>
             <p
-              className="text-2xl font-light tracking-[0.06em] leading-normal"
+              className="text-2xl font-light tracking-[0.06em] leading-tight"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
               welcome home
+            </p>
+            <p
+              className="text-base font-light italic tracking-[0.06em] leading-tight"
+              style={{ fontFamily: 'Merriweather, serif' }}
+            >
+              and happy birthday
             </p>
           </div>
         </div>
