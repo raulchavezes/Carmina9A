@@ -42,7 +42,7 @@ export default function Index() {
               className="text-[32px] font-normal leading-tight"
               style={{ fontFamily: 'Merriweather, serif' }}
             >
-              Hello Floren
+              Hello Dulce Maria
             </h1>
             <p
               className="text-2xl font-light tracking-[0.06em] leading-tight"
@@ -50,12 +50,7 @@ export default function Index() {
             >
               welcome home
             </p>
-            <p
-              className="text-base font-light italic tracking-[0.06em] leading-tight"
-              style={{ fontFamily: 'Merriweather, serif' }}
-            >
-              and happy birthday
-            </p>
+
           </div>
         </div>
 
